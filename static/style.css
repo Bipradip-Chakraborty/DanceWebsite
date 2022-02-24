@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Lacquer&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@200&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#navbar{
+    background-color: black;
+    padding: 14px 14px;
+    font-family: 'Lacquer', cursive;
+
+}
+
+#navbar ul{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 20px;
+    font-size: 23px;
+    color: #c4c4c4;
+}
+
+#navbar li a:hover{
+    color: white;
+    font-weight: bolder;
+}
+
+#introSection {
+    padding-bottom: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 65px;
+    align-items: center;
+    background: center/cover no-repeat url("/static/bg.png") ;
+    height: 425px;
+    font-family: 'Syne Tactile', cursive;
+    text-shadow: 4px 4px 3px black;
+}
+
+#introSection div.small{
+    font-size: 52px;
+    padding: 5px;
+    text-shadow: 2px 2px 2px black;
+}
+
+#sponsorsSection{
+    height: 300px;
+    background-color: #fbcbff;
+}
+#missionSection{
+    height: 326px;
+    /* width: 73%;
+    margin: auto; */
+}
+
+#sponsorsSection h2{
+    font-size: 36px;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    font-family: 'Syne Tactile', cursive;
+}
+
+#sponsors{
+    height: 191px;
+    max-width: 758px;
+    margin: 27px auto;
+}
+.spImage{
+    height: 60%;
+    margin: 20px;
+}
+#missionSection h2{
+    text-align: center;
+    padding: 12px;
+    font-family: 'Syne Tactile', cursive;
+}
+.cards{
+    
+    display: flex;
+    justify-content: center;
+}
+.card{
+    /* border: 2px solid black;
+    display: inline-block;
+    height: 200px;
+    width: 258px;
+    margin: 20px 20px;
+    border-radius: 10px; */
+    border: 2px solid black;
+    width: 25%;
+    margin: 20px 10px;
+    height: 200px;
+    border-radius: 10px; 
+}
+
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-box img{
+    height: 100px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+
+.card-content{
+    padding: 0 10px;
+}
+
+.card-content p{
+    font-size: 19px;
+}
+
+#footer{
+    height: 40px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    align-items: center;
+    font-family: 'Source Serif 4', sans-serif;
+    font-weight: bolder;
+}
+
+#logo img{
+    filter: invert();
+    height: 42px;
+}
+#logo{
+    color: rgb(255, 0, 0);
+    display: flex;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 20px;
+    font-family: 'Source Serif 4', sans-serif;
+    font-weight: bolder;
+    margin-right: 40px;
+}
